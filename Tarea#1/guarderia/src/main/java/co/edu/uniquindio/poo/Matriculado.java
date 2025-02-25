@@ -92,7 +92,7 @@ public class Matriculado {
     numeroIdentificacion=sc.nextLine();
     mostrarMensaje("Ingrese que alergias tiene "+ nombre+": ");
     alergias=sc.nextLine();
-    mostrarMensaje("Ingrese el id de "+nombre+": ");
+    mostrarMensaje("Ingrese el id único de la guarderia para "+nombre+": ");
     id=sc.nextLine();
     mostrarMensaje("Ingrese la edad de "+nombre+": ");
     edad=sc.nextInt();
@@ -115,7 +115,7 @@ public class Matriculado {
         mostrarMensaje("Edad: "+ edad);
         mostrarMensaje("Genero: "+genero);
         mostrarMensaje("Identificación: "+id);
-        mostrarMensaje("Nombre del acudiente de: "+nombre+ " "+ apellido+" es: "+nombreAcudiente);
+        mostrarMensaje("Nombre del acudiente de "+nombre+" es: "+nombreAcudiente);
         mostrarMensaje("Número de contacto de "+nombreAcudiente+" : "+telefono);
     }
 
